@@ -1,0 +1,23 @@
+// 将按键绑定配置放入此文件中即可覆盖默认值
+[
+  {
+    "key": "shift+alt+l",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+l shift+cmd+l",
+    "command": "editor.action.formatSelection",
+    "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+f",
+    "command": "-editor.action.formatSelection",
+    "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+  }
+]

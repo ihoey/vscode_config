@@ -1,0 +1,83 @@
+{
+    "window.zoomLevel": 1,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.smoothScrolling": true,
+    "editor.formatOnType": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautify"
+            ]
+        },
+        "css": [
+            "css",
+            "scss",
+            "less"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "hbs",
+            "svg",
+            "ejs",
+            "php"
+        ]
+    },
+    "vetur.validation.template": true,
+    "editor.fontFamily": "Source Code Pro, Monaco, Menlo, 'Courier New', monospace",
+    "fileheader.Author": "ihoey",
+    "fileheader.LastModifiedBy": "ihoey",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "files.insertFinalNewline": true,
+    "workbench.editor.enablePreview": false,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "yarn",
+    "editor.formatOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue",
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+    ],
+    "prettier.eslintIntegration": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    },
+    "files.eol": "\n",
+    "html.format.endWithNewline": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true
+}
