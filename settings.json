@@ -6,7 +6,7 @@
     "editor.formatOnPaste": true,
     "workbench.colorTheme": "One Dark Pro",
     "files.autoSave": "onFocusChange",
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "wordWrapColumn",
     "editor.smoothScrolling": true,
     "editor.formatOnType": true,
     "terminal.external.osxExec": "iTerm.app",
@@ -79,5 +79,16 @@
     "files.eol": "\n",
     "html.format.endWithNewline": true,
     "html.format.indentHandlebars": true,
-    "html.format.indentInnerHtml": true
+    "html.format.indentInnerHtml": true,
+    "git.ignoreMissingGitWarning": true,
+    "files.associations": {
+        "*.wxml": "html"
+    },
+    "files.autoGuessEncoding": true,
+    "files.useExperimentalFileWatcher": true,
+    "editor.wordWrapColumn": 120,
+    "workbench.statusBar.feedback.visible": false,
+    "breadcrumbs.enabled": true,
+    "grunt.autoDetect": "off",
+    "npm.packageManager": "yarn"
 }
