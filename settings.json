@@ -90,5 +90,6 @@
     "workbench.statusBar.feedback.visible": false,
     "breadcrumbs.enabled": true,
     "grunt.autoDetect": "off",
-    "npm.packageManager": "yarn"
+    "npm.packageManager": "yarn",
+    "explorer.confirmDragAndDrop": false
 }
