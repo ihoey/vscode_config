@@ -76,5 +76,6 @@
   "npm.packageManager": "yarn",
   "explorer.confirmDragAndDrop": false,
   "git.enableSmartCommit": true,
-  "html.format.wrapAttributes": "aligned-multiple"
+  "html.format.wrapAttributes": "aligned-multiple",
+  "git.confirmSync": false
 }
