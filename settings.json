@@ -4,12 +4,34 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "editor.formatOnPaste": true,
-  "workbench.colorTheme": "One Dark Pro Vivid",
-  "files.autoSave": "onFocusChange",
   "editor.wordWrap": "wordWrapColumn",
   "editor.smoothScrolling": true,
   "editor.formatOnType": true,
+  "editor.fontFamily": "Source Code Pro, Monaco, Menlo, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 120,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.enablePreview": false,
+  "workbench.statusBar.feedback.visible": false,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.autoGuessEncoding": true,
+  "files.useExperimentalFileWatcher": true,
+  "files.associations": {
+    "*.wxml": "html"
+  },
   "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
   "beautify.language": {
     "js": {
       "type": ["javascript", "json"],
@@ -18,34 +40,25 @@
     "css": ["css", "scss", "less"],
     "html": ["htm", "html", "hbs", "svg", "ejs", "php"]
   },
-  "vetur.validation.template": true,
-  "editor.fontFamily": "Source Code Pro, Monaco, Menlo, 'Courier New', monospace",
   "fileheader.Author": "ihoey",
   "fileheader.LastModifiedBy": "ihoey",
+  "vetur.validation.template": true,
   "vetur.format.defaultFormatter.html": "js-beautify-html",
   "vetur.format.defaultFormatter.js": "prettier",
-  "workbench.iconTheme": "vscode-icons",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "underline",
+  "vetur.format.defaultFormatterOptions": {
+    "wrap_attributes": "force-aligned"
+  },
   "emmet.syntaxProfiles": {
     "vue-html": "html",
     "vue": "html"
   },
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
-  },
-  "files.insertFinalNewline": true,
-  "workbench.editor.enablePreview": false,
-  "editor.tabSize": 2,
-  "files.trimTrailingWhitespace": true,
-  "prettier.eslintIntegration": true,
+  "prettier.eslintIntegration": false,
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 120,
   "eslint.autoFixOnSave": true,
   "eslint.packageManager": "yarn",
-  "editor.formatOnSave": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -59,23 +72,15 @@
   "[markdown]": {
     "editor.quickSuggestions": true
   },
-  "files.eol": "\n",
   "html.format.endWithNewline": true,
   "html.format.indentHandlebars": true,
   "html.format.indentInnerHtml": true,
+  "html.format.wrapAttributes": "aligned-multiple",
   "git.ignoreMissingGitWarning": true,
-  "files.associations": {
-    "*.wxml": "html"
-  },
-  "files.autoGuessEncoding": true,
-  "files.useExperimentalFileWatcher": true,
-  "editor.wordWrapColumn": 120,
-  "workbench.statusBar.feedback.visible": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
   "breadcrumbs.enabled": true,
   "grunt.autoDetect": "off",
   "npm.packageManager": "yarn",
-  "explorer.confirmDragAndDrop": false,
-  "git.enableSmartCommit": true,
-  "html.format.wrapAttributes": "aligned-multiple",
-  "git.confirmSync": false
+  "explorer.confirmDragAndDrop": false
 }
