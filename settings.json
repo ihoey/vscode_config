@@ -82,5 +82,7 @@
   "breadcrumbs.enabled": true,
   "grunt.autoDetect": "off",
   "npm.packageManager": "yarn",
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "http.proxy": "http://127.0.0.1:1087",
+  "http.proxyStrictSSL": false
 }
