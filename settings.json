@@ -9,17 +9,20 @@
   "editor.formatOnType": true,
   "editor.fontFamily": "Source Code Pro, Monaco, Menlo, 'Courier New', monospace",
   "editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "editor.letterSpacing": 0.3,
   "editor.formatOnSave": true,
   "editor.wordWrapColumn": 120,
+  "editor.largeFileOptimizations": false,
   "editor.quickSuggestions": {
     "other": true,
     "comments": true,
     "strings": true
   },
   "workbench.colorTheme": "One Dark Pro Vivid",
-  "workbench.iconTheme": "vscode-icons",
   "workbench.editor.enablePreview": false,
   "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.highlightModifiedTabs": true,
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -32,12 +35,18 @@
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
-  // "beautify.config": {
-  //   "indent_size": 2,
-  //   "max_preserve_newlines": 2,
-  //   "newline_between_rules": false,
-  //   "brace_style": "collapse,preserve-inline"
-  // },
+  "beautify.config": {
+    "indent_size": 2,
+    "indent_char": " ",
+    "brace_style": "collapse,preserve-inline",
+    "end_with_newline": true,
+    "css": {
+      "indent_size": 2
+    },
+    "js": {
+      "break_chained_methods": false
+    }
+  },
   "beautify.language": {
     "js": {
       "type": ["javascript", "json"],
@@ -53,6 +62,7 @@
   "vetur.format.defaultFormatter.js": "prettier",
   "vetur.format.defaultFormatterOptions": {
     "js-beautify-html": {
+      "indent_size": 2,
       "wrap_attributes": "aligned-multiple"
     }
   },
@@ -62,6 +72,7 @@
   },
   "prettier.eslintIntegration": false,
   "prettier.semi": false,
+  "prettier.tabWidth": 2,
   "prettier.singleQuote": true,
   "prettier.jsxBracketSameLine": true,
   "prettier.printWidth": 120,
@@ -92,5 +103,6 @@
   "npm.packageManager": "yarn",
   "explorer.confirmDragAndDrop": false,
   "http.proxy": "http://127.0.0.1:1087",
-  "http.proxyStrictSSL": false
+  "http.proxyStrictSSL": false,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
