@@ -7,7 +7,7 @@
   "editor.wordWrap": "wordWrapColumn",
   "editor.smoothScrolling": true,
   "editor.formatOnType": true,
-  "editor.fontFamily": "Source Code Pro, Monaco, Menlo, 'Courier New', monospace",
+  "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
   "editor.tabSize": 2,
   "editor.lineHeight": 20,
   "editor.letterSpacing": 0.3,
@@ -104,5 +104,5 @@
   "explorer.confirmDragAndDrop": false,
   "http.proxy": "http://127.0.0.1:1087",
   "http.proxyStrictSSL": false,
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
 }
