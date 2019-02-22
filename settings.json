@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 1.3,
   "vsicons.dontShowNewVersionMessage": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
@@ -9,6 +9,7 @@
   "editor.formatOnType": true,
   "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
   "editor.lineHeight": 20,
+  "editor.letterSpacing": 0.3,
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.wordWrapColumn": 120,
@@ -33,12 +34,22 @@
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
-  // "beautify.config": {
-  //   "indent_size": 2,
-  //   "max_preserve_newlines": 2,
-  //   "newline_between_rules": false,
-  //   "brace_style": "collapse,preserve-inline"
-  // },
+  "beautify.config": {
+    "indent_size": 2,
+    "indent_char": " ",
+    "brace_style": "collapse,preserve-inline",
+    "end_with_newline": true,
+    "css": {
+      "indent_size": 2
+    },
+    "js": {
+      "break_chained_methods": false
+    }
+    // "indent_size": 2,
+    // "max_preserve_newlines": 2,
+    // "newline_between_rules": false,
+    // "brace_style": "collapse,preserve-inline"
+  },
   "beautify.language": {
     "js": {
       "type": ["javascript", "json"],
@@ -54,6 +65,7 @@
   "vetur.format.defaultFormatter.js": "prettier",
   "vetur.format.defaultFormatterOptions": {
     "js-beautify-html": {
+      "indent_size": 2,
       "wrap_attributes": "aligned-multiple"
     }
   },
@@ -63,6 +75,7 @@
   },
   "prettier.eslintIntegration": false,
   "prettier.semi": false,
+  "prettier.tabWidth": 2,
   "prettier.singleQuote": true,
   "prettier.jsxBracketSameLine": true,
   "prettier.printWidth": 120,
@@ -92,7 +105,10 @@
   "grunt.autoDetect": "off",
   "npm.packageManager": "yarn",
   "explorer.confirmDragAndDrop": false,
-  "http.proxy": "http://127.0.0.1:1087",
+  "http.proxy": "http://127.0.0.1:1080",
   "http.proxyStrictSSL": false,
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.largeFileOptimizations": false,
+  "git.autofetch": true
 }
