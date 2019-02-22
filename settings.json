@@ -13,15 +13,17 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.wordWrapColumn": 120,
+  "editor.largeFileOptimizations": false,
   "editor.quickSuggestions": {
     "other": true,
     "comments": true,
     "strings": true
   },
-  "workbench.colorTheme": "One Dark Pro Vivid",
   "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "One Dark Pro Vivid",
   "workbench.editor.enablePreview": false,
   "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.highlightModifiedTabs": true,
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -45,10 +47,6 @@
     "js": {
       "break_chained_methods": false
     }
-    // "indent_size": 2,
-    // "max_preserve_newlines": 2,
-    // "newline_between_rules": false,
-    // "brace_style": "collapse,preserve-inline"
   },
   "beautify.language": {
     "js": {
@@ -108,7 +106,5 @@
   "http.proxy": "http://127.0.0.1:1080",
   "http.proxyStrictSSL": false,
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
-  "workbench.editor.highlightModifiedTabs": true,
-  "editor.largeFileOptimizations": false,
   "git.autofetch": true
 }
