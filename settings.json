@@ -18,17 +18,15 @@
     "comments": true,
     "strings": true
   },
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Dark Pro Vivid",
   "workbench.editor.enablePreview": false,
-  "workbench.statusBar.feedback.visible": false,
   "workbench.editor.highlightModifiedTabs": true,
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
   "files.autoGuessEncoding": true,
-  "files.useExperimentalFileWatcher": true,
   "files.associations": {
     "*.wxml": "html",
     "*.vue": "vue"
@@ -63,7 +61,8 @@
   "vetur.format.defaultFormatter.js": "prettier",
   "vetur.format.defaultFormatterOptions": {
     "js-beautify-html": {
-      "indent_size": 2
+      "indent_size": 2,
+      "wrap_attributes": "preserve"
     }
   },
   "emmet.syntaxProfiles": {
@@ -83,9 +82,6 @@
   "[markdown]": {
     "editor.quickSuggestions": true
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[vue]": {
     "editor.formatOnSave": true
   },
@@ -100,8 +96,18 @@
   "grunt.autoDetect": "off",
   "npm.packageManager": "yarn",
   "explorer.confirmDragAndDrop": false,
-  "http.proxy": "http://127.0.0.1:1080",
+  "http.proxy": "http://127.0.0.1:1087",
   "http.proxyStrictSSL": false,
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
-  "git.autofetch": true
+  "git.autofetch": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.startupEditor": "welcomePage",
+  "javascript.implicitProjectConfig.experimentalDecorators": true
 }
