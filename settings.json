@@ -13,6 +13,7 @@
   "editor.wordWrap": "wordWrapColumn",
   "editor.largeFileOptimizations": false,
   "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
   "editor.suggest.shareSuggestSelections": true,
   "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
   "editor.quickSuggestions": {
@@ -53,14 +54,29 @@
   },
   "beautify.language": {
     "js": {
-      "type": ["javascript", "json"],
-      "filename": [".jshintrc", ".jsbeautify"]
+      "type": [
+        "javascript",
+        "json"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautify"
+      ]
     },
-    "css": ["css", "scss", "less"],
-    "html": ["htm", "html", "hbs", "svg", "ejs", "php"]
+    "css": [
+      "css",
+      "scss",
+      "less"
+    ],
+    "html": [
+      "htm",
+      "html",
+      "hbs",
+      "svg",
+      "ejs",
+      "php"
+    ]
   },
-  "fileheader.Author": "ihoey",
-  "fileheader.LastModifiedBy": "ihoey",
   "vetur.validation.template": true,
   "vetur.format.defaultFormatter.js": "prettier",
   "vetur.format.defaultFormatter.html": "js-beautify-html",
@@ -110,7 +126,21 @@
   "[json]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "javascript.implicitProjectConfig.experimentalDecorators": true,
-  "javascript.implicitProjectConfig.checkJs": true
+  "javascript.implicitProjectConfig.checkJs": true,
+  "fileheader.customMade": {
+    "Author": "Ihoey",
+    "Email": "mail@ihoey.com",
+    "Date": "Do not edit",
+    "LastEditors": "Ihoey",
+    "LastEditTime": "Do not edit"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontWeight": "600",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "search.followSymlinks": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.statusBar.visible": true,
+  "search.location": "sidebar",
+  "editor.renderWhitespace": "selection"
 }
